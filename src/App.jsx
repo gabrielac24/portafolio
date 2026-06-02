@@ -21,7 +21,7 @@ const TechIcon = ({ name }) => {
     "ARDUINO": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg",
     "GIT / GITHUB": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
     "REDES": "https://cdn-icons-png.flaticon.com/512/2885/2885417.png", 
-    "IA (APIs y Modelos)": "/icono.png"
+    "IA (APIs y Modelos)": "./icono.png"
   };
 
   return (
@@ -49,28 +49,28 @@ const proyectosData = [
     titulo: "ARVA – Smart Agriculture IoT",
     descripcion: "Sistema IoT de agricultura inteligente orientado al monitoreo ambiental continuo y el procesamiento de datos. Optimiza la toma de decisiones mediante la lectura de sensores físicos y comunicación segura.",
     herramientas: ["React Native", "ESP32", "MQTT", "APIs de IA"],
-    imagenes: ["./arva1.png", "./arva2.png", "./arva3.png"] 
+    imagenes: ["./arva1.png", "./arva2.png", "./arva3.png", "./arva4.png"] 
   },
   {
     id: 3,
     titulo: "Chatbot con Azure",
     descripcion: "Asistente virtual inteligente construido bajo una arquitectura cliente-servidor. Diseñado para automatizar respuestas, manejar interacciones fluidas con los usuarios y resolver consultas mediante inteligencia artificial.",
     herramientas: ["Azure OpenAI", "Express.js", "Node.js"],
-    imagenes: ["/azure.png"]
+    imagenes: ["./azure.png"]
   },
   {
     id: 4,
     titulo: "Frigosense",
     descripcion: "Sistema web responsivo enfocado en el monitoreo en tiempo real y la visualización detallada de datos provenientes de sensores físicos, facilitando el control de entornos a través de una interfaz limpia.",
     herramientas: ["Angular", "Servicios Web", "Frontend"],
-    imagenes: ["/frigo1.png", "/frigo2.png", "/frigo3.png"]
+    imagenes: ["./frigo1.png", "./frigo2.png", "./frigo3.png"]
   },
   {
     id: 5,
     titulo: "Web Sockets",
     descripcion: "Plataforma de mensajería bidireccional de alto rendimiento que permite la comunicación en tiempo real bajo una arquitectura cliente-servidor, asegurando la entrega inmediata de datos y concurrencia de usuarios.",
     herramientas: ["Web Sockets", "Redes", "Cliente-Servidor"],
-    imagenes: ["/sockets.png"]
+    imagenes: ["./sockets.png"]
   }
 ];
 
@@ -200,7 +200,7 @@ function App() {
               <a href="#proyectos" className="bg-violet-600 hover:bg-violet-500 text-white font-bold py-3 px-8 rounded-full transition-all shadow-lg shadow-violet-200">
                 Proyectos
               </a>
-              <a href="#cv" className="bg-violet-600 hover:bg-violet-500 text-white font-bold py-3 px-8 rounded-full transition-all shadow-lg shadow-violet-200">
+              <a href="./cv.pdf" className="bg-violet-600 hover:bg-violet-500 text-white font-bold py-3 px-8 rounded-full transition-all shadow-lg shadow-violet-200" target="_blank" rel="noopener noreferrer">
                 CV
               </a>
             </div>
@@ -238,7 +238,7 @@ function App() {
 
                     {/* Foto real */}
                     <img 
-                      src="/perfil.jpeg" 
+                      src="./perfil.jpeg" 
                       alt="Gabriela De Casas" 
                       className="w-full h-auto aspect-[4/5] object-cover border border-gray-300 shadow-inner filter contrast-105"
                     />
