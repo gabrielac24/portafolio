@@ -42,14 +42,14 @@ const proyectosData = [
     titulo: "Serena – App Móvil de Salud Mental",
     descripcion: "Aplicación móvil diseñada para la reducción y atención de crisis a través de la gestión y monitoreo constante de pacientes, creando un vínculo digital directo y seguro para el cuidado de la salud mental.",
     herramientas: ["Flutter", "APIs de IA", "Firestore"],
-    imagenes: ["/serena3.jpg", "/serena1.jpg", "/serena2.png"]
+    imagenes: ["./serena3.jpg", "./serena1.jpg", "./serena2.png"]
   },
   {
     id: 2,
     titulo: "ARVA – Smart Agriculture IoT",
     descripcion: "Sistema IoT de agricultura inteligente orientado al monitoreo ambiental continuo y el procesamiento de datos. Optimiza la toma de decisiones mediante la lectura de sensores físicos y comunicación segura.",
     herramientas: ["React Native", "ESP32", "MQTT", "APIs de IA"],
-    imagenes: ["https://via.placeholder.com/800x400/f3e8ff/a855f7?text=ARVA+Dashboard"]
+    imagenes: ["./arva1.png", "./arva2.png", "./arva3.png"] 
   },
   {
     id: 3,
