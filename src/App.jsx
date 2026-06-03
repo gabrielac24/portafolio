@@ -200,7 +200,7 @@ function App() {
               <a href="#proyectos" className="bg-violet-600 hover:bg-violet-500 text-white font-bold py-3 px-8 rounded-full transition-all shadow-lg shadow-violet-200">
                 Proyectos
               </a>
-              <a href="./cv.pdf" className="bg-violet-600 hover:bg-violet-500 text-white font-bold py-3 px-8 rounded-full transition-all shadow-lg shadow-violet-200" target="_blank" rel="noopener noreferrer">
+              <a href="./CV Gabriela De Casas Arroyo.pdf" className="bg-violet-600 hover:bg-violet-500 text-white font-bold py-3 px-8 rounded-full transition-all shadow-lg shadow-violet-200" target="_blank" rel="noopener noreferrer">
                 CV
               </a>
             </div>
