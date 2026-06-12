@@ -16,6 +16,7 @@ const TechIcon = ({ name }) => {
     "NODE.JS": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
     "EXPRESS.JS": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
     "FIREBASE": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-plain-wordmark.svg",
+    "SUPABASE": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
     "HTML5": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
     "MYSQL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
     "ARDUINO": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg",
@@ -49,7 +50,7 @@ const proyectosData = [
     titulo: "ARVA – Smart Agriculture IoT",
     descripcion: "Sistema IoT de agricultura inteligente orientado al monitoreo ambiental continuo y el procesamiento de datos. Optimiza la toma de decisiones mediante la lectura de sensores físicos y comunicación segura.",
     herramientas: ["React Native", "ESP32", "MQTT", "APIs de IA"],
-    imagenes: ["./arva1.png", "./arva2.png", "./arva3.png", "./arva4.png"] 
+    imagenes: ["./arva1.png", "./arva2.png", "./arva3.png", "./arva4.png", "./arva5.png"] 
   },
   {
     id: 3,
@@ -71,12 +72,19 @@ const proyectosData = [
     descripcion: "Plataforma de mensajería bidireccional de alto rendimiento que permite la comunicación en tiempo real bajo una arquitectura cliente-servidor, asegurando la entrega inmediata de datos y concurrencia de usuarios.",
     herramientas: ["Web Sockets", "Redes", "Cliente-Servidor"],
     imagenes: ["./sockets.png"]
+  },
+  {
+    id: 6,
+    titulo: "DuranGo AI – MLH Hackathon",
+    descripcion: "Sistema inteligente de consumo local bajo una arquitectura AI-First. Utiliza un agente conversacional para generar rutas turísticas y gastronómicas personalizadas en tiempo real, e incluye un módulo de registro por voz para digitalizar comercios tradicionales.",
+    herramientas: ["Next.js", "Supabase", "Gemini API", "CopilotKit"],
+    imagenes: ["./durango.png", "./durango2.png", "./durango3.png"] 
   }
 ];
 
 const habilidadesData = [
   "FLUTTER", "ANGULAR", "PYTHON", "C++", "PHP", "JAVASCRIPT", "REACT NATIVE (EXPO)", 
-  "REACT.JS", "NODE.JS", "EXPRESS.JS", "FIREBASE", 
+  "REACT.JS", "NODE.JS", "EXPRESS.JS", "FIREBASE", "SUPABASE",
   "MYSQL", "HTML5", "ARDUINO", "GIT / GITHUB", "REDES", "IA (APIs y Modelos)" 
 ];
 
