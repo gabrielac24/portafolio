@@ -22,7 +22,10 @@ const TechIcon = ({ name }) => {
     "ARDUINO": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg",
     "GIT / GITHUB": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
     "REDES": "https://cdn-icons-png.flaticon.com/512/2885/2885417.png", 
-    "IA (APIs y Modelos)": "./icono.png"
+    "GEMINI AI": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg",
+    "VS CODE": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+    "ANTIGRAVITY": "./antigravity.png",
+    "NEXT.JS": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
   };
 
   return (
@@ -41,7 +44,7 @@ const proyectosData = [
   {
     id: 1,
     titulo: "Serena – App Móvil de Salud Mental",
-    descripcion: "Aplicación móvil diseñada para la reducción y atención de crisis a través de la gestión y monitoreo constante de pacientes, creando un vínculo digital directo y seguro para el cuidado de la salud mental.",
+    descripcion: "Aplicación móvil diseñada para la reducción y atención de crisis a través de la gestión y monitoreo constante de pacientes, creando un vínculo digital directo y seguro para el cuidado de la salud mental. Desarrollado para DuranIA DevCode Challenge",
     herramientas: ["Flutter", "APIs de IA", "Firestore"],
     imagenes: ["./serena3.jpg", "./serena1.jpg", "./serena2.png"]
   },
@@ -50,7 +53,7 @@ const proyectosData = [
     titulo: "ARVA – Smart Agriculture IoT",
     descripcion: "Sistema IoT de agricultura inteligente orientado al monitoreo ambiental continuo y el procesamiento de datos. Optimiza la toma de decisiones mediante la lectura de sensores físicos y comunicación segura.",
     herramientas: ["React Native", "ESP32", "MQTT", "APIs de IA"],
-    imagenes: ["./arva1.png", "./arva2.png", "./arva3.png", "./arva4.png", "./arva5.png"] 
+    imagenes: ["./arva1.png", "./arva2.png", "./arva3.png", "./arva4.png", "./arva5.jpeg"] 
   },
   {
     id: 3,
@@ -83,9 +86,9 @@ const proyectosData = [
 ];
 
 const habilidadesData = [
-  "FLUTTER", "ANGULAR", "PYTHON", "C++", "PHP", "JAVASCRIPT", "REACT NATIVE (EXPO)", 
-  "REACT.JS", "NODE.JS", "EXPRESS.JS", "FIREBASE", "SUPABASE",
-  "MYSQL", "HTML5", "ARDUINO", "GIT / GITHUB", "REDES", "IA (APIs y Modelos)" 
+  "FLUTTER", "ANGULAR", "PYTHON", "C++", "PHP", "JAVASCRIPT", "REACT NATIVE (EXPO)", "VS CODE", 
+  "REACT.JS", "NODE.JS", "EXPRESS.JS", "FIREBASE", "SUPABASE", "NEXT.JS",
+  "MYSQL", "HTML5", "ARDUINO", "GIT / GITHUB", "REDES", "GEMINI AI", "ANTIGRAVITY"
 ];
 
 // Estructura de cursos orientada a "Insignias/Badges" (CORREGIDO IBM)
