@@ -80,15 +80,15 @@ const proyectosData = [
     id: 6,
     titulo: "DuranGo AI – MLH Hackathon",
     descripcion: "Sistema inteligente de consumo local bajo una arquitectura AI-First. Utiliza un agente conversacional para generar rutas turísticas y gastronómicas personalizadas en tiempo real, e incluye un módulo de registro por voz para digitalizar comercios tradicionales.",
-    herramientas: ["Next.js", "Supabase", "Gemini API", "CopilotKit"],
+    herramientas: ["Next.js", "Supabase", "Gemini API", "CopilotKit", "APIs de IA", "Antigravity"],
     imagenes: ["./durango.png", "./durango2.png", "./durango3.png"] 
   }
 ];
 
 const habilidadesData = [
   "FLUTTER", "ANGULAR", "PYTHON", "C++", "PHP", "JAVASCRIPT", "REACT NATIVE (EXPO)", "VS CODE", 
-  "REACT.JS", "NODE.JS", "EXPRESS.JS", "FIREBASE", "SUPABASE", "NEXT.JS",
-  "MYSQL", "HTML5", "ARDUINO", "GIT / GITHUB", "REDES", "GEMINI AI", "ANTIGRAVITY"
+  "REACT.JS", "NODE.JS", "EXPRESS.JS", "FIREBASE", "SUPABASE", "ANTIGRAVITY", "NEXT.JS",
+  "MYSQL", "HTML5", "ARDUINO", "GIT / GITHUB", "REDES", "GEMINI AI"
 ];
 
 // Estructura de cursos orientada a "Insignias/Badges" (CORREGIDO IBM)
